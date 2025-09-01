@@ -1,0 +1,8 @@
+file_format: "1"
+id: Block_mod
+name: Block_mod
+type: shield
+url: https://github.com/tany478/zmk-config-Block_mod
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
