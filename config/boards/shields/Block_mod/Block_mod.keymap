@@ -163,7 +163,7 @@
         MOUSE {     //レイヤー6の時の設定(マウスレイヤー)
             bindings = <
             &trans    &trans    &trans    &trans    &trans            &trans    &trans    &trans    &trans    &trans
-            &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB4          &mkp MB4  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB5
+            &trans    &trans    &trans    &trans    &trans            &trans    &trans    &trans    &trans    &trans
             &trans    &trans    &trans    &trans    &trans            &trans    &trans    &trans    &trans    &trans
                                 &trans    &trans    &trans    &trans  &trans    &trans    &trans    
             &trans    &trans    &trans    &trans    &trans            &trans    &trans    &trans    &trans    &trans
