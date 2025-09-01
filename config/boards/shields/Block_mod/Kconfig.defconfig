@@ -1,4 +1,7 @@
-if BLOCK_MOD
+if SHIELD_BLOCK_MOD
+
 config ZMK_KEYBOARD_NAME
-    default "Block_mod Keyboard"
+    default "Block_mod"
+
+    
 endif
