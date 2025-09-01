@@ -1,4 +1,4 @@
-if DAW
+if BLOCK_MOD
 config ZMK_KEYBOARD_NAME
     default "Block_mod Keyboard"
 endif

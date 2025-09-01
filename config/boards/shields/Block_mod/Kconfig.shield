@@ -1,2 +1,2 @@
-config Block_mod
+config BLOCK_MOD
     def_bool $(shields_list_contains,Block_mod)
