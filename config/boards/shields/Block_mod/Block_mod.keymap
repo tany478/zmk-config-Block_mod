@@ -1,12 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
-//#include <dt-bindings/zmk/keys.h>
-//#include <dt-bindings/zmk/mouse.h>
-//#include <behaviors/rgbled_widget.dtsi>  // led制御
 
-//#define ZMK_MOUSE_DEFAULT_SCRL_VAL 100   //スクロール量
 
-//#define MOUSE 6
 
 &mt {
     flavor = "balanced";
@@ -69,11 +64,6 @@
             tapping-term-ms = <200>;
         };
 
-        rot_kp: sensor_rotate_kp {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            #sensor-binding-cells = <2>;
-            bindings = <&kp>, <&kp>;
-        };
 
     };
 
@@ -90,9 +80,7 @@
             &trans      &trans   &trans   &trans       &trans                                &kp UP_ARROW          &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &trans                                                                                                        
             >;
 
-            sensor-bindings = 
-                <&rot_kp DOWN UP>,
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            
         };
 
         layer_1 {   //レイヤー1の時の設定
@@ -104,9 +92,7 @@
             &trans     &trans    &trans    &trans   &trans            &trans    &trans     &trans    &trans    &trans
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            
         };
 
         layer_2 {   //レイヤー2の時の設定
@@ -118,9 +104,7 @@
            &trans    &trans    &trans     &trans  &trans             &trans     &trans     &trans     &trans  &trans
             >;
 
-            sensor-bindings =
-                <&rot_kp C_BRI_DEC C_BRI_INC>,
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            
         };
 
         layer_3 {    //レイヤー3の時の設定
@@ -132,9 +116,7 @@
             &trans          &trans                  &trans          &trans                   &trans            &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = 
-                <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>,
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            
         };
 
         layer_4 {   //レイヤー4の時の設定(スクロールレイヤー)
@@ -169,9 +151,7 @@
             &trans    &trans    &trans    &trans    &trans            &trans    &trans    &trans    &trans    &trans
             >;
 
-           sensor-bindings =
-                <&rot_kp PG_DN PG_UP>,
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+           
             
         };
     };
