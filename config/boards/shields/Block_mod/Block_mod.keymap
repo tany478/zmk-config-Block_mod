@@ -92,7 +92,7 @@
             &kp A       &kp S    &kp D    &mt LSHFT F  &mt LCTRL G                           &mt RCTRL H           &mt RSHFT J    &kp K          &kp L           &kp MINUS
             &mt LWIN Z  &kp X    &kp C    &kp V        &kp B                                 &kp N                 &kp M          &kp COMMA      &kp PERIOD      &kp TAB
                                  &kp ESC  &lt 2 LANG2  &kp BACKSPACE &lt_to_layer_0 1 SPACE  &lt_to_layer_0 1 RET  &lt 3 LANG1    &kp DEL
-            &mkp MB1    &mkp MB4 &mkp MB5 &mkp MB3     &mkp MB2                              &kp UP_ARROW          &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &trans                                                                                                        
+            &mkp MB3    &mkp MB1 &mkp MB4 &mkp MB2     &trans                                &kp UP_ARROW          &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &trans                                                                                                        
             >;
 
             sensor-bindings = <&scroll_up_down>;
